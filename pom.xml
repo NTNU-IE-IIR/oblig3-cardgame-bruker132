@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!-- TODO: Sett din egen groupID og artifactID -->
-    <groupId>velg.en.fornuftig.groupID</groupId>
+    <groupId>no.ntnu.idatx2003.oblig3.cardgame</groupId>
     <artifactId>CardGame</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -14,6 +14,18 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+    <!-- Add dependecy to the core-library of JavaFX -->
+    <dependency>
+        <groupId>org.openjfx</groupId>
+        <artifactId>javafx-controls</artifactId>
+        <version>21.0.1</version>
+    </dependency>
+    </dependencies>
+
+
+
 
     <!-- TODO: Sett dine dependencies for JavaFX og JUnit5-testing -->
 
