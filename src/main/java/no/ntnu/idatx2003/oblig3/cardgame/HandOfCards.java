@@ -51,8 +51,4 @@ public class HandOfCards {
     }
     return false;
   }
-
-
-
-
 }
