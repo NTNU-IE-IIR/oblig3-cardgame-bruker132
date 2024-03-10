@@ -43,4 +43,8 @@ public class DeckOfCards {
     return CardsToBeDealt;
   }
 
+  public int getNumberOfCards() {
+    return this.numberOfCards;
+  }
+
 }

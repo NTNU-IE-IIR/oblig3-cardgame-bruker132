@@ -12,7 +12,7 @@ public class HandOfCards {
   }
 
     public HandOfCards() {
-    this.hand = new ArrayList<>();
+    this.hand = hand;
   }
 
   public int culculateSumOfCards() {
