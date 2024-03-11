@@ -31,6 +31,9 @@ public class DeckOfCards {
     if (amountOfCards < 1 || amountOfCards > this.numberOfCards) {
       throw new IllegalArgumentException("Invalid amount of cards");
     }
+    if (cards.size() < amountOfCards) {
+      throw new IllegalStateException("Not enough cards left in the deck");
+    }
 
     ArrayList<PlayingCard> CardsToBeDealt = new ArrayList<>();
     for (int i = 0; i < amountOfCards; i++) {

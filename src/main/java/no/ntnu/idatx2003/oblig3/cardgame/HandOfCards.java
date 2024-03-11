@@ -9,10 +9,11 @@ public class HandOfCards {
 
 
   public HandOfCards(Collection<PlayingCard> hand) {
+    this.hand = hand;
   }
 
     public HandOfCards() {
-    this.hand = hand;
+    this.hand = new ArrayList<>();
   }
 
   public int culculateSumOfCards() {
